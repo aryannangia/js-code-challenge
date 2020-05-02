@@ -8,5 +8,5 @@ var sum_to_n = function(n) {
     var total = 0;
     while (count <=n)
         total += (count + 1);
-    return sum;
+    return total;
 };
