@@ -6,7 +6,9 @@
 var sum_to_n = function(n) {
     var count = 0;
     var total = 0;
-    while (count <=n)
-        total += (count + 1);
+    while (count < n) {
+        count++;
+        total += (count);
+    }
     return total;
 };
