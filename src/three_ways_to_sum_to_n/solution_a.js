@@ -5,4 +5,5 @@
 
 var sum_to_n = function(n) {
     var res = (n * (n+1)) / 2;
+    return res;
 };
